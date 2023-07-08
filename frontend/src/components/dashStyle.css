@@ -1,0 +1,211 @@
+#root{
+    overflow: hidden;
+}
+
+.dashContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    min-width: 100%;
+    height: calc(100% - 80px);
+    /* background-color: rgba(220,220,220); */
+    background: linear-gradient(to bottom, #6372ff 0%, #5ca9fb 100%);
+    
+}
+.dashlogo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftPanel{
+    width: 20%;
+    max-width: 200px;
+    box-shadow: 2px 0px 10px rgba(0,0,0,0.3);
+    background-color: whitesmoke;
+    height: 100%;
+}
+.rightPanel{
+    display: flex;
+    overflow: auto !important;
+    /* align-items: center; */
+    justify-content: center;
+    width: calc(80% - 4px);
+    margin-left: 4px;
+    min-width: calc(100% - 204px);
+    background-color: transparent;
+    height: 100%;
+}
+.dashContainer .leftPanel ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    
+    background-color: transparent;
+    list-style: none;
+    list-style-type: none;
+}
+.dashContainer .leftPanel ul li{
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px ;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-align: center;
+    list-style-type: none;
+    list-style: none;
+    background-color: transparent;
+    color:black;
+}
+.dashContainer .leftPanel ul li:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+.dashContainer .leftPanel ul li:last-child{
+    margin-bottom: 20px;
+}
+.dashContainer .leftPanel ul li.active{
+    /* background-color: #4070f4; */
+    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    color:white;
+}
+
+section{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    min-height: calc(100% - 40px);
+    margin-top: 40px;
+    background-color: white;
+}
+section h1{
+    /* color: #101010 !important;  */
+}
+#feed #feedBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+    gap:10px;
+}
+#feed #feedBox .feedItem:first-child{
+    margin-top: 20px;
+}
+#feed #feedBox .feedItem:last-child{
+    margin-bottom: 20px;
+}
+#feed #feedBox .feedItem{
+    display: flex;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #101010;
+    flex-direction: column;
+}
+#feed #feedBox .feedItem .userInfo{
+    display: flex;
+    /* background-color:  #5ca9fb; */
+
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+#feed #feedBox .feedItem .avatar {
+    display: flex;
+    width: 3em;
+    margin-left: 10px;
+    height: 3em;
+    background-color: grey;
+    border-radius: 50%;
+}
+#feed #feedBox .feedItem h5{
+    color:#101010;
+}
+#feed #feedBox .feedItem .requestItem{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding:10px 10px 10px 10px
+}
+#feed #feedBox .feedItem .requestItem .itemName{
+    font-size: 1.3em;
+    color:#101010;
+}
+#feed #feedBox .feedItem .requestItem .donateButton{
+    /* background-color: red; */
+    display: block;
+    align-self: flex-end;
+    width:fit-content;
+    transition: 0.3s ease;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    border: 1px solid transparent;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px 20px;
+}
+#feed #feedBox .feedItem .requestItem .donateButton:hover{
+    background-color: rgba(0,0,0,0.2);
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+#request #requestBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    width: 100%;
+}
+#request #requestBox .requestItem{
+    /* background-color: red; */
+    border: 1px solid black;
+    overflow: hidden;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap:10px;
+    width: 90%;
+}
+#request #requestBox .requestItem .topPanel , #request #requestBox .requestItem .bottomPanel {
+    display: flex;
+    gap:20px;
+}
+#request #requestBox .requestItem  .options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-size: 1.5em;
+}
+#request #requestBox .requestItem input[type="text"] , #request #requestBox .requestItem input[type="number"]{
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 1.2em;
+    outline: none;
+    /* background-color: red; */
+}
+#request #requestBox .requestItem .requestDon {
+    font-size: 1.2em;
+}
+#request #requestBox i{
+    font-size: ;
+}
+/* #feed #feedBox .feedItem div{
+    display: flex;
+    flex-direction: row;
+} */
