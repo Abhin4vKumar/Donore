@@ -1,0 +1,61 @@
+{
+    "Header": {
+
+        "title": "MAKE A CHANGE",
+        "text": "Food is being wasted at an alarming rate. And we - consumers - are the largest source of it. More than grocery stores and restaurants combined. But there's good news: we can do something about it. Everything we need is right here (and in our fridges)."
+    },
+    "About": {
+        "paragraph": "Our aim is to redistribute surplus food and water to the individuals who are needing it. If any event like a wedding or party has excess of food and water it will be collected from that location and distributed among the people who need it in the nearest area through our project. Thus this would prevent wastage of food and water and would also benefit the weaker section of the society who are unable to afford these meals..",
+        "Why": [
+            "One-stop Solution",
+            "Guaranteed Delivery",
+            "Easy Availability",
+            "Government Approved"
+        ],
+        "Why2": [
+            "Saving Food",
+            "Helping the Needy",
+            "NGOs approved",
+            "Clean Drinking Water"
+        ]
+    },
+    "Services": [{
+            "link": "/login",
+            "icon": "fa fa-credit-card",
+            "name": "Donate",
+            "text": "India wastes nearly 67 million and It amounts to Rs93,000 cr worth of food, which means it can feed the most populous state of Bihar for a complete year."
+        },
+        {
+            "link": "https://forms.gle/nufDqfm61eRAG7yw5",
+            "icon": "fa fa-lightbulb-o",
+            "name": "Volunteer",
+            "text": "By volunteering with us, you are helping to pack and distribute meals to thousands of beneficiary and help to end hunger. Duties can be from picking up food items, packing and redistributing."
+        },
+        {
+            "link": "/login",
+            "icon": "fa fa-wheelchair",
+            "name": "Request Help",
+            "text": "All of us need help sometimes. Now, more than ever, Blumne Charity is here to help you get access to food and clean drinking water."
+        }
+    ],
+
+    "Contact": {
+        "address": "Delhi Technological University , Delhi",
+        "phone": "+91 9560197101",
+        "email": "donore.dtu@gmail.com",
+        "facebook": "https://www.instagram.com/donore_dtu/",
+        "twitter": "twitter.com",
+        "youtube": "youtube.com"
+    },
+    "Features": [{
+            "icon": "fa fa-cutlery",
+            "title": "Preventing Hunger",
+            "text": "Many people are suffering from hunger worldwide. We make everything possible to solve this problem."
+        },
+        {
+            "icon": "fa fa-tint",
+            "title": "Provide Clean Drinking Water",
+            "text": "Contaminated water and poor sanitation are linked to transmission of diseases. We make everything possible to solve this problem."
+        }
+    ]
+}
